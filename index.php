@@ -1,0 +1,2 @@
+<?php
+// SmartCafe Billing - Basic
