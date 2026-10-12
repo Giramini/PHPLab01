@@ -1,15 +1,6 @@
 <?php
-// Inspect type trước khi cast
-echo "<pre>"; // Thêm vô sau reface để hiển thị đẹp mắt hơn
-echo "=== TYPE INSPECTION ===" . PHP_EOL;
-var_dump($rawQuantity);
-echo "Raw quantity type: " . gettype($rawQuantity) . PHP_EOL;
-
 // Normalize
 $quantity = (int) $rawQuantity;
-var_dump($quantity);
-echo "Clean quantity type: " . gettype($quantity) . PHP_EOL;
-echo "</pre>";
 
 // Calculation
 $subtotal = $unitPrice * $quantity;
